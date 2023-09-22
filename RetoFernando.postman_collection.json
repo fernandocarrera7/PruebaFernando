@@ -1,0 +1,333 @@
+{
+	"info": {
+		"_postman_id": "3d61f9cb-62af-42ce-8c67-64e6bf956eff",
+		"name": "RetoFernando",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10855887"
+	},
+	"item": [
+		{
+			"name": "https://6fpvr2vgwe.execute-api.us-east-1.amazonaws.com/dev/createProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"aaaa\",\r\n    \"price\": 12.3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://6fpvr2vgwe.execute-api.us-east-1.amazonaws.com/dev/createProduct",
+					"protocol": "https",
+					"host": [
+						"6fpvr2vgwe",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"createProduct"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://6fpvr2vgwe.execute-api.us-east-1.amazonaws.com/dev/createProduct",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"aaaa\",\r\n    \"price\": 12.3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://6fpvr2vgwe.execute-api.us-east-1.amazonaws.com/dev/createProduct",
+							"protocol": "https",
+							"host": [
+								"6fpvr2vgwe",
+								"execute-api",
+								"us-east-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"createProduct"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "72"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 22 Sep 2023 00:52:00 GMT"
+						},
+						{
+							"key": "x-amzn-RequestId",
+							"value": "1411cdc4-299f-4810-a967-131c89e9de74"
+						},
+						{
+							"key": "x-amz-apigw-id",
+							"value": "Loi_eFACoAMFbIQ="
+						},
+						{
+							"key": "X-Amzn-Trace-Id",
+							"value": "Root=1-650ce52f-2ae5b76315f5b085448c5988;Sampled=0;lineage=e59e9ea5:0"
+						},
+						{
+							"key": "X-Cache",
+							"value": "Miss from cloudfront"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 bd6d64b5fc1b0addd47d73ecb14f74d0.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "X-Amz-Cf-Pop",
+							"value": "LIM50-P1"
+						},
+						{
+							"key": "X-Amz-Cf-Id",
+							"value": "8-IP8J4BdnE1DfdHIPFfUBIHuYyWvSIky1WJKF5TLZbyvWCONgwUOA=="
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"aaaa\",\n    \"price\": 12.3,\n    \"id\": \"d0cf2e86-f87b-437d-9661-e4e01dbb16c6\"\n}"
+				}
+			]
+		},
+		{
+			"name": "https://6fpvr2vgwe.execute-api.us-east-1.amazonaws.com/dev/findProduct",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://6fpvr2vgwe.execute-api.us-east-1.amazonaws.com/dev/findProduct",
+					"protocol": "https",
+					"host": [
+						"6fpvr2vgwe",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"findProduct"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://6fpvr2vgwe.execute-api.us-east-1.amazonaws.com/dev/findProduct",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://6fpvr2vgwe.execute-api.us-east-1.amazonaws.com/dev/findProduct",
+							"protocol": "https",
+							"host": [
+								"6fpvr2vgwe",
+								"execute-api",
+								"us-east-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"findProduct"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "562"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 22 Sep 2023 00:50:38 GMT"
+						},
+						{
+							"key": "x-amzn-RequestId",
+							"value": "5e76cd6f-2a25-4e62-ac04-2c7ebd47159d"
+						},
+						{
+							"key": "x-amz-apigw-id",
+							"value": "LoiynFtOIAMFmzg="
+						},
+						{
+							"key": "X-Amzn-Trace-Id",
+							"value": "Root=1-650ce4dd-6cd88b6354f4e16b5060dced;Sampled=0;lineage=6f4d5946:0"
+						},
+						{
+							"key": "X-Cache",
+							"value": "Miss from cloudfront"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 bd6d64b5fc1b0addd47d73ecb14f74d0.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "X-Amz-Cf-Pop",
+							"value": "LIM50-P1"
+						},
+						{
+							"key": "X-Amz-Cf-Id",
+							"value": "zY8UlBD26jm3dpsyCsxrNZQaOlEYkAERrvpc765bQlk6xse3MtKaeQ=="
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"response\": {\n        \"Items\": [\n            {\n                \"price\": 12.3,\n                \"id\": \"0cf83d2b-af53-41d3-92b9-f1ad46829bad\",\n                \"name\": \"aaaa\"\n            },\n            {\n                \"price\": 12.3,\n                \"id\": \"cac4387e-b391-4ce3-8fd8-ca5d95c2c797\",\n                \"name\": \"aaaa\"\n            },\n            {\n                \"price\": 12.3,\n                \"id\": \"acd51311-aa9e-4a5a-b896-98820a573133\",\n                \"name\": \"aaaa\"\n            },\n            {\n                \"price\": 12.3,\n                \"id\": \"ae6e85a6-90dc-4f32-b56d-913d593d55da\",\n                \"name\": \"aaaa\"\n            },\n            {\n                \"price\": 12.3,\n                \"id\": \"b08933dc-dc74-4eb4-b561-c41dda1241df\",\n                \"name\": \"aaaa\"\n            },\n            {\n                \"price\": 12.3,\n                \"id\": \"c0b0ab7e-6ddd-46e2-8fbd-93791843b3a1\",\n                \"name\": \"aaaa\"\n            },\n            {\n                \"price\": 12.3,\n                \"id\": \"62a15720-b087-4c8c-b606-173efc11ad0c\",\n                \"name\": \"aaaa\"\n            }\n        ],\n        \"Count\": 7,\n        \"ScannedCount\": 7\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "https://6fpvr2vgwe.execute-api.us-east-1.amazonaws.com/dev/swapi/people",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "id",
+						"value": "20",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://6fpvr2vgwe.execute-api.us-east-1.amazonaws.com/dev/swapi/people",
+					"protocol": "https",
+					"host": [
+						"6fpvr2vgwe",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"swapi",
+						"people"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://6fpvr2vgwe.execute-api.us-east-1.amazonaws.com/dev/swapi/people",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "id",
+								"value": "20",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://6fpvr2vgwe.execute-api.us-east-1.amazonaws.com/dev/swapi/people",
+							"protocol": "https",
+							"host": [
+								"6fpvr2vgwe",
+								"execute-api",
+								"us-east-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"swapi",
+								"people"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "609"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 22 Sep 2023 00:52:27 GMT"
+						},
+						{
+							"key": "x-amzn-RequestId",
+							"value": "8da59033-6092-4f44-9547-f19f3ed45c3c"
+						},
+						{
+							"key": "x-amz-apigw-id",
+							"value": "LojD3E4moAMFVwA="
+						},
+						{
+							"key": "X-Amzn-Trace-Id",
+							"value": "Root=1-650ce54b-1182d938750f45657c730385;Sampled=0;lineage=c8df50cd:0"
+						},
+						{
+							"key": "X-Cache",
+							"value": "Miss from cloudfront"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 bd6d64b5fc1b0addd47d73ecb14f74d0.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "X-Amz-Cf-Pop",
+							"value": "LIM50-P1"
+						},
+						{
+							"key": "X-Amz-Cf-Id",
+							"value": "mO1t1IeGWh7C0T41XbRNLfwUEPn6T_oWlEq6Tw8--PLa-PoE2lvhwg=="
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"name\": \"Yoda\",\n        \"height\": \"66\",\n        \"mass\": \"17\",\n        \"hair_color\": \"white\",\n        \"skin_color\": \"green\",\n        \"eye_color\": \"brown\",\n        \"birth_year\": \"896BBY\",\n        \"gender\": \"male\",\n        \"homeworld\": \"https://swapi.py4e.com/api/planets/28/\",\n        \"films\": [\n            \"https://swapi.py4e.com/api/films/2/\",\n            \"https://swapi.py4e.com/api/films/3/\",\n            \"https://swapi.py4e.com/api/films/4/\",\n            \"https://swapi.py4e.com/api/films/5/\",\n            \"https://swapi.py4e.com/api/films/6/\"\n        ],\n        \"species\": [\n            \"https://swapi.py4e.com/api/species/6/\"\n        ],\n        \"vehicles\": [],\n        \"starships\": [],\n        \"created\": \"2014-12-15T12:26:01.042000Z\",\n        \"edited\": \"2014-12-20T21:17:50.345000Z\",\n        \"url\": \"https://swapi.py4e.com/api/people/20/\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
