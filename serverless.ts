@@ -7,7 +7,10 @@ import swapi from '@functions/swapi';
 const serverlessConfiguration: AWS = {
   service: 'reto-fernando',
   frameworkVersion: '3',
-  plugins: ['serverless-esbuild'],
+  plugins: [
+    'serverless-esbuild',
+    'serverless-offline'
+  ],
   provider: {
     name: 'aws',
     runtime: 'nodejs14.x',
@@ -79,6 +82,9 @@ const serverlessConfiguration: AWS = {
       define: { 'require.resolve': undefined },
       platform: 'node',
       concurrency: 10,
+    },
+    'serverless-offline': {
+      httpPort: 9000,
     },
   },
 };

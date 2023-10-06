@@ -21,6 +21,9 @@ Depending on your preferred package manager, follow the instructions below to de
 - Run `yarn sls deploy` to deploy this stack to AWS
 
 ## Test your service
+open two different console commands and execute:
+- Run `npx serverless offline` to deploy serverless offline (console 1)
+- Run `npm test` to deploy test (console 2)
 
 This template contains a single lambda function triggered by an HTTP request made on the provisioned API Gateway REST API `/createProduct` route with `POST` method. The request body must be provided as `application/json`. The body structure is tested by API Gateway against `src/functions/createProduct/schema.ts` JSON-Schema definition: it must contain the `name` property.
 
